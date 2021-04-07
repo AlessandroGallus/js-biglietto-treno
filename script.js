@@ -10,11 +10,11 @@ parseFloat(costo);
 if (eta<18){
 
     costo = ((km*0.21)-((km*0.21)/100*20));
-    console.log(costo);
+    console.log("Il costo del biglietto è uguale a: " + costo);
 } else if (eta>65){
         costo = ((km*0.21)-((km*0.21)/100*40));
-        console.log(costo);
+        console.log("Il costo del biglietto è uguale a: " + costo);
     }else{
         costo=km*0.21;
-        console.log(costo);
+        console.log("Il costo del biglietto è uguale a: " + costo);
     }
